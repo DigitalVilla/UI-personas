@@ -1,0 +1,90 @@
+.container {
+    max-width: 850px; // background: red;
+    height: 100%;
+    margin: 0  auto;
+    & .card {
+        height: 100hv;
+        margin-bottom: 15rem;
+        ;
+        position: relative;
+        background-attachment: initial;
+        box-shadow: 0 1.5rem 1rem rgba(black, .4);
+        &_header {
+            // box-shadow: 0 1rem 1rem rgba(black, .2);
+            color: rgb(255, 255, 255); // background: rgb(231, 241, 255);
+            padding: 1rem 4rem;
+            margin-bottom: $pad;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-shadow: 0 .2rem .5rem rgba(black, .5);
+
+            
+            & h2 {
+                display: inline-block;
+                text-align: left;
+            }
+            & span {
+                font-size: 1.7rem;
+            }
+        }
+        &_image {
+            position: relative;
+            &_photo {
+                // width: 100%;
+                height: 30rem;
+                background-attachment: fixed;
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &_quote {
+            color: #fff;
+            padding: 2rem;
+            bottom: 0; // opacity: 0;
+            transition: all .5s;
+            font-size: 2.5rem;
+            font-style: italic;
+            text-shadow: 0 .2rem .5rem rgba(black, .5);
+        }
+        &_bio {
+            background: rgb(228, 228, 228);
+            padding: 5rem;
+            ;
+            & p {
+                text-align: justify;
+                margin-bottom:2rem;
+                line-height: 2;
+                color: rgb(55, 55, 55);
+            }
+        }
+    }
+}
+
+[class*="sara"] {
+    // background: rgba($c1, .5);
+    background-image: linear-gradient(to top left, transparent, lighten($c1, 5%));
+}
+
+[class*="brad"] {
+    // background: rgba($c2, .5);
+    background-image: linear-gradient(to top left, transparent, lighten($c2, 5%));
+}
+
+[class*="george"] {
+    // background: rgba($c3, .5);
+    background-image: linear-gradient(to top left, transparent,lighten($c3, 5%));      
+}
+
+[class*="sara-light"] {
+    background: rgba($c1, .8);
+}
+
+[class*="brad-light"] {
+    background: rgba($c2, .8);
+}
+
+[class*="george-light"] {
+    background: rgba($c3, .8);
+}

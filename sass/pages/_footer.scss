@@ -1,0 +1,21 @@
+footer {
+    color:#fff;
+    background: rgb(204, 204, 204);
+    background-image: linear-gradient(to right, rgba($c3, .7),rgba($c1, .7) 33%,rgba($c2, .7)),url("../img/hero.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    text-shadow: 0 .2rem .2rem rgba(#000, .8);
+    & a {
+        margin-left: .5rem;
+        text-shadow: 0 .2rem .2rem rgba(#000, .8);
+        color: #fff;
+        transition: all .3s;
+        &:hover {
+            text-decoration: wavy; 
+        }
+    }   
+    
+}

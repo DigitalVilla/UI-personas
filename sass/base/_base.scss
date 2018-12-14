@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size: 1rem == 10px; */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    // padding: 0 2rem;
+    font-size: 1.7rem;
+    background: rgb(204, 204, 204);
+    background-image: linear-gradient(to bottom, rgba($c3, .7),rgba($c1, .7) 33%,rgba($c2, .7)),url("../img/hero.jpg");
+    // background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
